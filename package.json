@@ -1,0 +1,20 @@
+{
+  "name": "cloudschool-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "npm run docs:build && node deployDoc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "scp2": "^0.5.0",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-image": "^1.0.4",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
+  }
+}

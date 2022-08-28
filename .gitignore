@@ -1,0 +1,5 @@
+node_modules
+deployDoc.js
+main.pem
+shadow-key.pem
+docs/.vuepress/dist
